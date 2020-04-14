@@ -1278,3 +1278,4 @@ coroutine 0:
 	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
 	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
 	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll')
+2020/04/14 20:45:53 [error] 6908#7220: *94 CreateFile() "./lua_i/www/page1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /page1 HTTP/1.1", host: "localhost:9999"

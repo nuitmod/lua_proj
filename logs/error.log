@@ -150,3 +150,9 @@
 2020/04/14 17:30:16 [alert] 5796#8620: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:150
 2020/04/14 17:30:16 [error] 5796#8620: lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: ./lua/main.lua:8: no request object found)
 2020/04/14 18:41:11 [error] 5796#10668: *237 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: ./lua/main.lua:8: no request object found), client: 127.0.0.1, server: localhost, request: "GET /file HTTP/1.1", host: "localhost:9999", referrer: "http://localhost:9999/page2.html"
+2020/04/14 19:29:03 [alert] 14956#13220: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:150
+2020/04/14 19:29:03 [notice] 14956#13220: signal process started
+2020/04/14 19:29:03 [alert] 4940#12676: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:150
+2020/04/14 19:29:03 [error] 4940#12676: lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: ./lua/main.lua:8: no request object found)
+2020/04/14 19:29:03 [alert] 4788#9816: lua_code_cache is off; this will hurt performance in ./conf/nginx.conf:150
+2020/04/14 19:29:03 [error] 4788#9816: lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: ./lua/main.lua:8: no request object found)

@@ -68,7 +68,7 @@ body {
   /*  background: rgba(90, 90, 90, 0.9);
     background: #0009; */
     background :rgba(0, 0, 0, 0.4);
-    width: 209px;
+    width: 199px;
     height: 100vh;
     color: black;
     display: flex;
@@ -140,7 +140,7 @@ li{
   background: #00009;
   padding: 15px 0 0 0;
   text-align: center;
-  width: 220px;
+  width: 210px;
   letter-spacing: 1px;
   transition: all .2s ease-in-out;
   margin-left: 0;

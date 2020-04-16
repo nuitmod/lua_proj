@@ -1279,3 +1279,93 @@ coroutine 0:
 	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
 	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll')
 2020/04/14 20:45:53 [error] 6908#7220: *94 CreateFile() "./lua_i/www/page1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /page1 HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:54:13 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:54:35 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file?query=cats HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:54:45 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file/?query=cats HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:54:56 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file/search?query=cats HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:55:46 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file?query=cats HTTP/1.1", host: "localhost:9999"
+2020/04/14 20:55:55 [error] 6908#7220: *98 lua_load_resty_core failed to load the resty.core module from https://github.com/openresty/lua-resty-core; ensure you are using an OpenResty release from https://openresty.org/en/download.html (rc: 2, reason: module 'resty.core' not found:
+	no field package.preload['resty.core']
+	no file './lua/main.lua'
+	no file './site/lualib/resty\core.so'
+	no file './lualib/resty\core.so'
+	no file '.\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty\core.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty\core.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'
+	no file './site/lualib/resty.so'
+	no file './lualib/resty.so'
+	no file '.\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\lualib\resty.so'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\resty.dll'
+	no file 'C:\Users\wtvfq\Desktop\openresty-1.15.8.3-win64\loadall.dll'), client: 127.0.0.1, server: localhost, request: "GET /file?query=cats HTTP/1.1", host: "localhost:9999"

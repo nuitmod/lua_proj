@@ -1,1 +1,10 @@
 /client_body_temp/
+/fastcgi_temp/
+/html/
+/include/
+/logs/
+/lua/
+/lualib/
+/pod/
+/proxy_temp/
+/scgi_temp/

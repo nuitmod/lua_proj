@@ -15,7 +15,6 @@ $('.mobile-tab').hide();
 
 //page2
 
-
 })
 
 //index

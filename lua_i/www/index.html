@@ -10,10 +10,16 @@
                 integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
                 crossorigin="anonymous"></script>
         <link rel="manifest" href="manifest.json">
+        <!--<script src="https://cdn.jsdelivr.net/npm/brython@3.8.8/brython.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.8.8/brython_stdlib.js"></script>
+    <!--    <script type="text/javascript" src="../ibrython/brython.js"></script>
+        <script type="text/javascript" src="../ibrython/brython_stdlib.js"></script>-->
 
     <meta name="theme-color" content="#0099ff" />
     </head>
-    <body>
+    <body onload="brython()">
       <header class="header">
         <nav class="hamburger">
           <button class="hamburger__button">
@@ -57,6 +63,25 @@
           <img src="../img/code.jpg" alt="" height="19" width="229" />
         </div>
         -->
+
+        <section id="brython">
+          <h5>Python code:</h5>
+          <div id="p1"></div>
+          <div id="p2"></div>
+        </section>
     <script src="../js/main.js"></script>
+    <script type="text/python" id="py1">
+    from browser import document, console, ajax, bind
+
+    def ii(): i="innite"; console.log(i); document['p1'].html="<h6>python code in browser!!!</h6>"
+
+    ii()
+    def uu():
+         u="<h6>niitmod</h6>";  document['p2'].html=u
+
+    uu()
+
+
+    </script>
   </body>
 </html>

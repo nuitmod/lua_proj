@@ -8,3 +8,5 @@
 /pod/
 /proxy_temp/
 /scgi_temp/
+luajit.exe
+nginx.exe
